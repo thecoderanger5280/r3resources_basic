@@ -28,3 +28,10 @@ if str3.index('i') == 0 && str3.index('f') == 1
 else
   puts false
 end
+
+#Exercise 6
+print "Input first name: "
+str4 = gets.chomp()
+print "Input last name: "
+str5 = gets.chomp()
+puts "Hello #{str5} #{str4}"

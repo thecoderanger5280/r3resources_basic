@@ -35,3 +35,31 @@ str4 = gets.chomp()
 print "Input last name: "
 str5 = gets.chomp()
 puts "Hello #{str5} #{str4}"
+
+#Exercise 7
+print "File Name: "
+str6 = gets.chomp()
+str6s = str6.split('.')
+puts "Base name: #{str6s[0]}"
+puts "Extension: .#{str6s[1]}"
+
+#Exercise 8
+def i2030(x,y)
+  if ((x >= 20) && (x <= 30)) || ((y >= 20) && (y <= 30))
+    return true
+  else
+    return false
+  end
+end
+puts i2030(15,35)
+puts i2030(20,35)
+
+#Exercise 9
+num1 = 5
+if ((num1 >= 1) && (num1 <= 10))
+  puts true
+else
+  puts false
+end
+
+#Exercise 10 

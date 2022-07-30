@@ -62,4 +62,5 @@ else
   puts false
 end
 
-#Exercise 10 
+#Exercise 10
+puts "Hello World"
